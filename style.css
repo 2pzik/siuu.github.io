@@ -1,24 +1,98 @@
-header{
+body {
+    background-color:#202020;
+}
+.heroesPictures {
+    width: 250px;
+    height: 250px;
+    padding: 75px;
+    color: #FFFFFF;
     display: flex;
+    flex-direction: row;
+    align-content: center;
     align-items: center;
-    justify-content: space-around;
+    font-size: 45px;
+    font-family: Montserrat;
+    
+}
+.items{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    width: 1700px;
+    height: 100px;
+    padding: 50px;
+}
+.itemsPictures{
+    width: 125px;
+    height: 125px;
+    padding: 30px;
 }
 
-header>nav{
-    width:60%
-
+.heroesText{
+    color: #FFFFFF;
+    font-size: 45px;
+    font-family: Montserrat;
+    text-align: justify;
+    padding-left: 100px;
+    white-space: nowrap;
 }
-
-ul{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-
-        list-style: none;
+h1{
+    color: #FFFFFF;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 45px;
+    font-family: Montserrat;  
 }
-
-nav > ul > li > a{
+.itemsText{
+    color: #FFFFFF;
+    width: 1500px;
+    font-size: 29px;
+    font-family: Montserrat;
+    text-align: justify;
+    text-align: center;
+}
+a{
+    color: #FFFFFF;
     text-decoration: none;
 }
-
-    
+.arrow{
+    padding: 50px;
+    width: 100px;
+}
+.text{
+    width: 250px;
+    height: 250px;
+    padding: 75px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-family: Montserrat;
+}
+.Contact{
+    width: 900px;
+    height: 50px;
+    padding-left: 800px;
+    color: #FFFFFF;
+    align-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-family: Montserrat;
+}
+.AboutUs{
+    width: 900px;
+    height: 50px;
+    padding-left: 300px;
+    color: #FFFFFF;
+    align-content: center;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 45px;
+    font-family: Montserrat;
+}
